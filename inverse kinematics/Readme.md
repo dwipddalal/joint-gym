@@ -26,4 +26,4 @@ This function takes four inputs:
 
 It returns a tuple containing a boolean value indicating if the position is within the robot's workspace and a list containing the angles of the first and second links.
 
-The remaining code in the file uses the PyBullet library to connect to a physics simulation, loads a plane and robot, sets the gravity and time step, and runs a simulation to move the robot to a desired position by controlling the torque of the joints. It then compares the actual position of the end-effector to the desired position.
+The code then uses PyBullet to simulate the robot's movement and control its movement using a proportional-derivative control loop with a specified time step. The robot's position and the desired position are continuously compared and the error is used to calculate the control force applied to the joints. The simulation runs for 1000 iterations, after which the actual position of the end-effector is compared to the desired position and printed.
