@@ -1,3 +1,5 @@
+Planar 2R Robot Kinematics
+
 This code contains two functions forward_kinematics and inverse_kinematics, which are used to calculate the forward and inverse kinematics of a 2-link planar robot, respectively.
 
 
