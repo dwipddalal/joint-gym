@@ -22,8 +22,8 @@ This function takes four inputs:
 - `y`: the y-coordinate of the end-effector of the robot.
 - `l1`: the length of the first link.
 - `l2`: the length of the second link.
+- `branch`: an optional parameter (default value is 1) that selects the branch of the inverse kinematics solution to use.
 
-branch: an optional parameter (default value is 1) that selects the branch of the inverse kinematics solution to use.
 It returns a tuple containing a boolean value indicating if the position is within the robot's workspace and a list containing the angles of the first and second links.
 
 The remaining code in the file uses the PyBullet library to connect to a physics simulation, loads a plane and robot, sets the gravity and time step, and runs a simulation to move the robot to a desired position by controlling the torque of the joints. It then compares the actual position of the end-effector to the desired position.
