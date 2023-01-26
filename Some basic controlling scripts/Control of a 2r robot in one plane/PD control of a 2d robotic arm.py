@@ -28,7 +28,7 @@ p.setGravity(0, 0, -9.81, physicsClientId=client)
 # Set the simulation time-step
 p.setTimeStep(0.001)  # The lower this is, more accurate the simulation
 
-# This step is required to enable torque control. Refer to the documentation for more details.
+# This step is required to enable torque control.
 p.setJointMotorControl2(robot, 1, p.VELOCITY_CONTROL, force=0)
 p.setJointMotorControl2(robot, 2, p.VELOCITY_CONTROL, force=0)
 
