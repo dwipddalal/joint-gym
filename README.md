@@ -16,3 +16,8 @@ In summary, PyBullet is a powerful physics engine that can be used to simulate r
 ## Some experiments that we ran to check for robustness of pybullet environment
 
 - Controlling a 3r robot in pybullet
+
+
+## Documentation Sytle
+
+We have used PEP 8 format style in this case.
