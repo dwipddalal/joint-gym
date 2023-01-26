@@ -1,9 +1,9 @@
-Planar 2R Robot Kinematics
+## Planar 2R Robot Kinematics
 
 This code contains two functions forward_kinematics and inverse_kinematics, which are used to calculate the forward and inverse kinematics of a 2-link planar robot, respectively.
 
 
-forward_kinematics(theta1, theta2, l1, l2)
+`forward_kinematics(theta1, theta2, l1, l2)`
 This function takes four inputs:
 
 theta1: the angle of the first link with respect to the x-axis.
@@ -12,7 +12,7 @@ l1: the length of the first link.
 l2: the length of the second link.
 It returns a list containing the x and y coordinates of the end-effector of the robot.
 
-inverse_kinematics(x, y, l1, l2, branch=1)
+`inverse_kinematics(x, y, l1, l2, branch=1)`
 This function takes four inputs:
 
 x: the x-coordinate of the end-effector of the robot.
