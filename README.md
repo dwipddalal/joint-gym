@@ -20,4 +20,4 @@ In summary, PyBullet is a powerful physics engine that can be used to simulate r
 
 ## Documentation Sytle
 
-We have used PEP 8 format style in this case.
+We have used PEP 8 format style.
