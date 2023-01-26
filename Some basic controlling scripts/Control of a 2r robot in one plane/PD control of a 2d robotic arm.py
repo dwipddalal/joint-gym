@@ -32,9 +32,7 @@ p.setTimeStep(0.001)  # The lower this is, more accurate the simulation
 p.setJointMotorControl2(robot, 1, p.VELOCITY_CONTROL, force=0)
 p.setJointMotorControl2(robot, 2, p.VELOCITY_CONTROL, force=0)
 
-################################################################################
 # Create a Proportional control loop to regulate the position of a single joint
-################################################################################
 
 # Define a sinusoidal trajectory
 dt = 0.001  # Simulation time-step
