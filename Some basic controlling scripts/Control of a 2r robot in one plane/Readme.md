@@ -5,3 +5,5 @@ The code first imports the necessary libraries (PyBullet, numpy, and matplotlib)
 Next, the code defines a sinusoidal trajectory for the position of the first joint and creates a PD control loop to regulate the position of that joint. The loop runs for 10000 iterations, where in each iteration, it gets the actual position of the joint, calculates the control input using PD control with the defined proportional gain (1000) and derivative gain (500), saturates the control input to model the torque limit of the motors, and runs the simulation for one time-step. The actual position and control input are stored in arrays for plotting at the end.
 
 Finally, the code plots the actual position, desired position, and control input of the first joint, and the simulation is disconnected.
+
+<img width="431" alt="image" src="https://user-images.githubusercontent.com/91228207/214959828-cebd8976-53b7-4ec6-a10e-e9702d159540.png">
