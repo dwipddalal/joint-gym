@@ -1,6 +1,11 @@
-# Controlling-Robotic-Arm-using-RL
 
+<div align = center>
+<a href = "github.com/dwipdalal/joint-gym"><img width="700px" height="500px" src= "https://user-images.githubusercontent.com/76529011/215042798-66e1c161-3d6e-4670-a373-d335f91edc7d.png"></a>
+</div>
 
+--------------------------------
+
+Joint-Gym is a pybullet-based wrapper for Reinforcement Learning-based tasks.
 
 ## Building simuation environement
 
