@@ -22,6 +22,20 @@ In summary, PyBullet is a powerful physics engine that can be used to simulate r
 
 - Controlling a 3r robot in pybullet
 
+## Concepts of Reinforcement Learning 
+
+Two major classes of algorithms:
+- Model based algorithm
+- Model free algorithm
+
+Two classes of learning:
+- Online Learning 
+- Offline Learning
+
+Two classes of policy:
+- On-policy
+- Off-policy
+
 
 ## Documentation Sytle
 
