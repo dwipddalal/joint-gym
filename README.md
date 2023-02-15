@@ -36,6 +36,15 @@ Two classes of policy:
 - On-policy
 - Off-policy
 
+## Q Function
+The action-value function, also known as the Q-function, is a fundamental concept in reinforcement learning that maps a state-action pair to the expected total reward of taking that action in that state and following a specific policy thereafter.
+
+Formally, the action-value function is defined as:
+Q(s, a) = E[R_t+1 + γR_t+2 + γ^2R_t+3 + ... | S_t = s, A_t = a]
+
+where s is the current state, a is the action taken in that state, R_t is the reward received at time t, γ is a discount factor that determines the importance of future rewards, and E[.] is the expected value operator.
+
+The Q-function represents the quality of taking a particular action in a specific state. By computing the Q-values for all actions in each state, an agent can determine the best action to take in each state and thus optimize its behavior to maximize its expected total reward.
 
 ## Documentation Sytle
 
