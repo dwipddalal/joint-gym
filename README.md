@@ -46,6 +46,9 @@ where s is the current state, a is the action taken in that state, R_t is the re
 
 The Q-function represents the quality of taking a particular action in a specific state. By computing the Q-values for all actions in each state, an agent can determine the best action to take in each state and thus optimize its behavior to maximize its expected total reward.
 
+### Objective in reinforcement learning
+In RL the objective is to find an approximate function that can map input state and action pair with expected value.  
+
 ## Documentation Sytle
 
 We have used PEP 8 format style.
