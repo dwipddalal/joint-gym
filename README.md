@@ -49,6 +49,20 @@ The Q-function represents the quality of taking a particular action in a specifi
 ### Objective in reinforcement learning
 In RL the objective is to find an approximate function that can map input state and action pair with expected value.  
 
+To create a reinforcement learning-based model for solving the inverse kinematics problem of a 2-r robotic arm, we can use a deep reinforcement learning algorithm such as deep Q-learning.
+
+### steps to make RL model for this case:
+
+Define the state space: The state space is the set of all possible states that the robot arm can be in. In this case, the state space can consist of the initial and final positions of the end-effector, as well as the angles of the two joints.
+
+Define the action space: The action space is the set of all possible actions that the robot can take. In this case, the action space can consist of the change in angle for each of the two joints.
+
+Define the reward function: The reward function is used to evaluate the goodness of a particular action taken in a given state. In this case, we can define the reward as the negative Euclidean distance between the current position of the end-effector and the target position.
+
+Train the model: We can use deep Q-learning to train the model by iteratively updating the Q-values for each state-action pair. The Q-value represents the expected future reward for taking a particular action in a given state.
+
+Test the model: Once the model is trained, we can test it by inputting a new initial and final position for the end-effector and having the model output the optimal angles for the two joints to reach the final position.
+
 ## Documentation Sytle
 
 We have used PEP 8 format style.
