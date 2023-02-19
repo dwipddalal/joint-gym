@@ -63,6 +63,9 @@ Train the model: We can use deep Q-learning to train the model by iteratively up
 
 Test the model: Once the model is trained, we can test it by inputting a new initial and final position for the end-effector and having the model output the optimal angles for the two joints to reach the final position.
 
+### Analogy with Deep learning
+Episode = Epoch
+
 ## Documentation Sytle
 
 We have used PEP 8 format style.
