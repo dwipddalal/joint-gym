@@ -66,6 +66,10 @@ Test the model: Once the model is trained, we can test it by inputting a new ini
 ### Analogy with Deep learning
 Episode = Epoch
 
+### Results
+https://drive.google.com/file/d/1lKRV3yjGzJWdM20cQ53CsYYHYlah5ED9/view?usp=sharing
+
+
 ## Documentation Sytle
 
 We have used PEP 8 format style.
